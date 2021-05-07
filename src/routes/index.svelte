@@ -1,2 +1,25 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<script>
+    
+</script>
+
+<main>
+    <h1>My Todos</h1>
+</main>
+
+<style lang='postcss'>
+    main {
+        @apply text-center;
+        @apply p-4;
+        @apply mx-auto;
+    }
+    
+    h1 {
+        @apply text-red-600;
+        @apply uppercase;
+        @apply font-thin;
+        @apply leading-tight;
+        @apply my-16 mx-auto;
+        @apply max-w-xs;
+    }
+</style>
